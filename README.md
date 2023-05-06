@@ -40,13 +40,13 @@ __Note:__ The [Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic
 
 In total I used the following prompts to GPT-4 to get to the point where I could submit a competition submission to Kaggle:
 
-* __based on the titanic CSV data, can you create a machine learning model to determine if a passenger was likely to survive?__
-* __can you show me how to do this in Python?__
-* __how do I save the model to a file?__
-* __how do i convert the survived column to an integer?__
-* __how can I improve the success rate of the model?__
-* __can you show me in Python how I can make success rate improvements?__
-* __how do I know what inputs to pass to the model?__
+* _based on the titanic CSV data, can you create a machine learning model to determine if a passenger was likely to survive?_
+* _can you show me how to do this in Python?_
+* _how do I save the model to a file?_
+* _how do i convert the survived column to an integer?_
+* _how can I improve the success rate of the model?_
+* _can you show me in Python how I can make success rate improvements?_
+* _how do I know what inputs to pass to the model?_
 
 _Note:_ Some of the prompts were just used for additional information
 and the output not incorporated into the code.
