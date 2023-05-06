@@ -70,3 +70,5 @@ putting me in a position of **9907** out of **16324** contenders on the [leaderb
 Maybe I am a being a bit of a charlatan to feel a sense of achievement by using AI to get the result, but
 on the other hand I have been using Google for years to achieve the same ends.  So no,
 I am counting it as a new skill 😜.
+
+The initial inspiration for using the Titanic example came from watching another great [Youtube video](https://www.youtube.com/watch?v=Ebb4gUI2IpQ&t=90s) from [Nicholas Renotte](https://github.com/nicknochnack).

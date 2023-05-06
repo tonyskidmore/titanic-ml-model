@@ -29,4 +29,8 @@ new_data = pd.DataFrame({
 
 # Make predictions for the new data
 predictions = model.predict(new_data)
-print('Predicted survival:', predictions)
+
+if predictions[0] == 1:
+    print("Passenger Survived")
+else:
+    print("Passenger did not Survive")
