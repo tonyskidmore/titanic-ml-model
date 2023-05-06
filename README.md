@@ -38,15 +38,15 @@ __Note:__ The [Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic
 
 ### GPT-4 prompts
 
-In total I used the following prompts to GPT-4 to get to the point where I would submit a competition submission to Kaggle:
+In total I used the following prompts to GPT-4 to get to the point where I could submit a competition submission to Kaggle:
 
-* based on the titanic CSV data, can you create a machine learning model to determine if a passenger was likely to survive?
-* can you show me how to do this in Python?
-* how do I save the model to a file?
-* how do i convert the survived column to an integer?
-* how can I improve the success rate of the model?
-* Can you show me in Python how I can make success rate improvements?
-* how do I know what inputs to pass to the model?
+* __based on the titanic CSV data, can you create a machine learning model to determine if a passenger was likely to survive?__
+* __can you show me how to do this in Python?__
+* __how do I save the model to a file?__
+* __how do i convert the survived column to an integer?__
+* __how can I improve the success rate of the model?__
+* __can you show me in Python how I can make success rate improvements?__
+* __how do I know what inputs to pass to the model?__
 
 _Note:_ Some of the prompts were just used for additional information
 and the output not incorporated into the code.
