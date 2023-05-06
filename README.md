@@ -33,7 +33,7 @@ For example:
 >
 > Once the data is split into **X_train**, **X_val**, **y_train**, and **y_val**, we can use **X_train** and **y_train** to train a machine learning model, and **X_val** and **y_val** to evaluate how well the model performs on new data that it has not seen before.
 
-__Note:__ The [Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic-tutorial) provides the classic way to develop the machine learning model for this challenge.
+_Note:_ The [Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic-tutorial) provides the classic way to develop the machine learning model for this challenge.
 
 
 ### GPT-4 prompts
