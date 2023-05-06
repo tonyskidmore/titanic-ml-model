@@ -9,9 +9,9 @@ I am not a data scientist (as you might be able to deduce) but I have been worki
 for around a year, so that has piqued my interest in AI.  I have been trying to learn as much as I
 can on the subject, but had no previous knowledge of AI or Machine Learning.  The invent of ChatGPT opens up a whole
 new world of learning opportunities, so this repo was an experimentation into what could be achieved without the
-pre-requisite data science skills to produce a model that could produce output to create a submission to the competition.  
+pre-requisite data science skills to create a model that could produce output to allow a submission to the competition.  
 
-You could say this is cheating, and you are just the copying and pasting code to get a result, which is right.
+You could say this is cheating, you are just the copying and pasting code to get a result, which is mostly right.
 But there is an overall contextual learning opportunity in using this method, in that from only understanding the requirement you are able to get working output that you can then drill into to understand the generated solution.  
 
 For example:
