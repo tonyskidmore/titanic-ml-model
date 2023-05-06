@@ -18,7 +18,7 @@ For example:
 
 `Me:`  
 `"X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)`
-"explain this code in words a 15 year old would understand"
+ explain this code in words a 15 year old would understand
 
 `ChatGPT:`  
 > This code is dividing a dataset into two parts: one part is going to be used to train a machine learning model, and the other part is going to be used to evaluate how well the model performs.
