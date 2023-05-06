@@ -12,8 +12,7 @@ new world of learning opportunities, so this repo was an experimentation into wh
 pre-requisite data science skills to produce a model that could produce output to create a submission to the competition.  
 
 You could say this is cheating, and you are just the copying and pasting code to get a result, which is right.
-But there is an overall contextual learning capability, in that from only understanding the requirement
-you are able to get a working output that you can then drill into to understand the solution.  
+But there is an overall contextual learning opportunity in using this method, in that from only understanding the requirement you are able to get working output that you can then drill into to understand the generated solution.  
 
 For example:
 
@@ -39,9 +38,9 @@ __Note:__ The [Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic
 
 ### GPT-4 prompts
 
-In total I used the following prompts to GPT-4 to get the point where I would submit a competition submission to Kaggle:
+In total I used the following prompts to GPT-4 to get to the point where I would submit a competition submission to Kaggle:
 
-* based on the titanic CSV data, can you created a machine learning model to determine if a passenger was likely to survive?
+* based on the titanic CSV data, can you create a machine learning model to determine if a passenger was likely to survive?
 * can you show me how to do this in Python?
 * how do I save the model to a file?
 * how do i convert the survived column to an integer?
@@ -58,7 +57,7 @@ The code in this repo is the result of the output from the above prompts.
 The training and test data is not included, as you will need to get that from
 [Kaggle](https://www.kaggle.com/c/titanic/data).
 
-The first submission I did had a zero score, which didn't seem right because
+The first submission I did had a zero score, which didn't seem right because even
 if the model was rubbish the law of averages should suggest some kind of result above zero.
 This is the reason for the __how do i convert the survived column to an integer?__ prompt.
 
@@ -66,6 +65,7 @@ This is the reason for the __how do i convert the survived column to an integer?
 
 After fixing that issue and resubmitting I was very pleased to see a score of **0.77511**,
 putting me in a position of **9907** out of **16324** contenders on the [leaderboard](https://www.kaggle.com/competitions/titanic/leaderboard?search=skidmore) (at time of writing).
+I know this isn't a great result, but it is a start and produced what I set out to achieve.
 
 ![titanic-leaderboard](images/kaggle_leaderboard.png)
 
