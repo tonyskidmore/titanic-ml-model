@@ -63,10 +63,10 @@ This is the reason for the __how do i convert the survived column to an integer?
 ![submissions](images/submissions.png)
 
 After fixing that issue and resubmitting I was very pleased to see a score of **0.77511**,
-putting me in a position of **9907** out of **16324** contenders (at time of writing).
+putting me in a position of **9907** out of **16324** contenders on the [leaderboard](https://www.kaggle.com/competitions/titanic/leaderboard?search=skidmore) (at time of writing).
 
 ![titanic-leaderboard](images/kaggle_leaderboard.png)
 
-Maybe I am being a charlatan to feel a sense of achievement by using AI to a result, but
+Maybe I am a being a bit of a charlatan to feel a sense of achievement by using AI to get the result, but
 on the other hand I have been using Google for years to achieve the same ends.  So no,
 I am counting it as a new skill 😜.

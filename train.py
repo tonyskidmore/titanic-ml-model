@@ -41,7 +41,7 @@ y = train_df['Survived']
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
 
 param_grid = {
-    'n_estimators': [50, 100, 200, 300, 400],
+    'n_estimators': [50, 100, 200],
     'max_depth': [None, 5, 10],
     'min_samples_split': [2, 5, 10],
     'min_samples_leaf': [1, 2, 4]
@@ -68,8 +68,5 @@ output = pd.DataFrame({'PassengerId': test_df['PassengerId'], 'Survived': y_pred
 output.to_csv('submission.csv', index=False)
 
 joblib.dump(model, 'model.joblib')
-
-# Load the model from a file
-# model = joblib.load('model.joblib')
 
 # https://www.kaggle.com/competitions/titanic/leaderboard?search=skidmore
