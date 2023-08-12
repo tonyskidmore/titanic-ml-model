@@ -35,6 +35,42 @@ For example:
 
 _Note:_ The [Titanic Tutorial](https://www.kaggle.com/code/alexisbcook/titanic-tutorial) provides the classic way to develop the machine learning model for this challenge.
 
+### Titanic Survival Machine Learning Model
+
+#### Training
+
+download the titanic dataset - requires login
+https://www.kaggle.com/ register for free
+https://www.kaggle.com/competitions/titanic
+https://www.kaggle.com/c/titanic/data
+
+````bash
+
+mkdir -p ~/venvs
+python3 -m venv ~/venv/titanic-model
+source  ~/venv/titanic-model/bin/activate
+pip install pip setuptools --upgrade
+
+````
+
+git clone https://github.com/tonyskidmore/titanic-ml-model.git
+cd titanic-ml-model
+
+pip install -r requirements.txt
+
+copy test.csv and train.csv to directory
+
+python3 ./train.py
+
+produces model.joblib (which is the model stored to disk)
+
+#### Scoring
+
+````bash
+
+python3 score.py
+
+````
 
 ### GPT-4 prompts
 
