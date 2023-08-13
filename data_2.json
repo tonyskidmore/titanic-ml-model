@@ -1,0 +1,15 @@
+[
+  {
+    "PassengerId":200,
+    "Pclass":3,
+    "Age":25,
+    "SibSp":1,
+    "Parch":0,
+    "Fare":10,
+    "Sex_female":0,
+    "Sex_male":1,
+    "Embarked_C":0,
+    "Embarked_Q":1,
+    "Embarked_S":0
+  }
+]
