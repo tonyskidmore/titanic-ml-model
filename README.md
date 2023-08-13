@@ -20,7 +20,8 @@ new world of learning opportunities, so this repo was experimentation into what 
 pre-requisite data science skills to create a model that could produce output to allow a submission to the competition.  
 
 You could say this is cheating, you are just the copying and pasting code to get a result, which is partly right.
-But there is an overall contextual learning opportunity in using this method, in that from only understanding the requirement you are able to get working output that you can then drill into to understand the generated solution.  
+But there is an overall contextual learning opportunity in using this method, in that from only understanding the requirement,
+you are able to get working output that you can then drill into to understand the generated solution.  
 
 For example:
 
@@ -53,15 +54,15 @@ Download the [titanic dataset](https://www.kaggle.com/c/titanic/data) from [Kagg
 
 All of the below instructions are based
 on my development environment of Windows Subsystem for Linux running Ubuntu 20.04.
-You may need to adapt the instruction for your environment.  
+You may need to adapt the instructions for your environment.  
 
 Create a Python virtual environment.
 
 ````bash
 
 mkdir -p ~/venvs
-python3 -m venv ~/venv/titanic-model
-source  ~/venv/titanic-model/bin/activate
+python3 -m venv ~/venvs/titanic-model
+source  ~/venvs/titanic-model/bin/activate
 pip install pip setuptools --upgrade
 
 ````
@@ -112,7 +113,7 @@ python3 inference.py data_2.json
 Scoring is the process of evaluating the quality or accuracy of the predictions made by the machine learning model. This often involves comparing the predicted values against actual known values (ground truth) and computing various metrics like accuracy, precision, recall, F1 score, etc.
 
 In our example we will use the `score.py` as part of a process to host an online endpoint of our model
-that we can send data to via a HTTP request.  Foe this we will use the Microsoft 
+that we can send data to via a HTTP request.  For this we will use the Microsoft 
 [azureml-inference-server-http](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-inference-server-http)
 Python package.  
 
