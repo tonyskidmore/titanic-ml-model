@@ -1,14 +1,12 @@
 # Titanic Survival Prediction Machine Learning Model
 
-- [Titanic Survival Prediction Machine Learning Model](#titanic-survival-prediction-machine-learning-model)
-    - [Overview](#overview)
-    - [Titanic Survival Machine Learning Model](#titanic-survival-machine-learning-model)
-      - [Training](#training)
-      - [Inferencing](#inferencing)
-      - [Online Scoring](#online-scoring)
-    - [GPT-4 prompts](#gpt-4-prompts)
-    - [Result](#result)
-
+- [Overview](#overview)
+- [Titanic Survival Machine Learning Model](#titanic-survival-machine-learning-model)
+  - [Training](#training)
+  - [Inferencing](#inferencing)
+  - [Online Scoring](#online-scoring)
+- [GPT-4 prompts](#gpt-4-prompts)
+- [Result](#result)
 
 ### Overview
 
